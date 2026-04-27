@@ -1,0 +1,18 @@
+analise_incidente:
+  description: >
+    Analise o seguinte incidente:
+
+    {incidente}
+
+    Gere um resumo do problema, impacto provável, possível causa raiz,
+    evidências necessárias e próximas ações recomendadas.
+  expected_output: >
+    Uma análise técnica curta em português.
+  agent: analista_incidente
+
+relatorio_rca:
+  description: >
+    Com base na análise anterior, gere um relatório de RCA em português.
+  expected_output: >
+    Um relatório de RCA estruturado, claro e objetivo.
+  agent: redator_rca
