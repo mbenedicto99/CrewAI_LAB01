@@ -873,7 +873,7 @@ flowchart TD
     B -->|KeyError agente| E[Verificar tasks.yaml]
     E --> F[Confirmar agente em agents.yaml e crew.py]
     B -->|run não executa| G[Verificar if main]
-    G --> H[Adicionar run()]
+    G --> H[Adicionar run]
     B -->|erro de chave API| I[Verificar .env]
     I --> J[Confirmar OPENAI_API_KEY]
     D --> K[Executar crewai run novamente]
